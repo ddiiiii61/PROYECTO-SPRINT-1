@@ -1,0 +1,196 @@
+html{height:100%;}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{color:#6BB5A6;font-size: 40px;}
+.logo:hover{color:#f6e4a9;}
+.slogan{font-size:22px;margin:0;}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width:100%;
+    bottom: 0;
+    background-color:#6BB5A6;   
+}
+
+footer p{margin:1% 5%;color:#ffffff;}
+
+nav{
+    display:flex;
+    justify-content: right;
+    padding:0.8% 0; 
+    background-color: #F0A36C;
+}
+
+/*Enlace nav*/
+nav a{margin-right:5%;text-decoration: none;color:black;}
+nav a:hover{color:#ffffff;}
+
+/*Páginas principal*/
+.validacion{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url("img/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*Titulo acceder*/
+.ini{font-size:40px;padding:0 13%;color:#ffff;}
+
+.formlogin{
+    
+    backdrop-filter: blur(6px);
+    border:3px #6BB5A6 solid;
+    padding:2% 5%;
+    margin-bottom:10%;
+    color:#ffffff;
+}
+
+.formlogin p, input{font-size:18px;}
+.inpt{width:100%;}
+
+/*Submits*/
+.smit{
+    margin-top:15%;
+    font-size:18px;
+    margin-left: 30%;
+    margin-bottom:13%;
+    background-color:#F0A36C;
+    border:none;
+    border-radius: 5%;
+    padding:2% 4%;
+    color:#ffffff;
+}
+.smit:hover{background-color:#f6e4a9;}
+
+.smitad{
+    margin-top:15%;
+    font-size:18px;
+    margin-left: 25%;
+    margin-bottom:13%;
+    background-color:#F0A36C;
+    border:none;
+    border-radius: 5%;
+    padding:2% 4%;
+    color:#ffff;
+}
+
+.smitad:hover{background-color:#f6e4a9;}
+
+/*Alumno profe*/
+.tipo{display:inline;margin-top: 10%;}
+#profe{margin-left:8%;}
+
+/*Href registrarse*/
+.alta{display: flex;justify-content: right;color:#ffff;}
+
+
+/************* ZONA ADMIN ******************/
+main{
+    height:100%;}
+
+.mainadmin{
+    background-image: url("img/admin1.png");
+    background-size: cover;
+    
+}
+.content{
+    display:grid;
+    grid-template-columns:20% 20%;
+    grid-gap:6rem;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    backdrop-filter: blur(0px);
+    
+}
+.izq, .der{
+    display:grid;
+    grid-template-rows:(20%, 4fr);
+    grid-gap:1rem;
+    align-items: center;
+}
+
+.izq a, .der a{
+    border-radius: 15px;
+    padding:12%;
+    text-decoration: none;
+    font-size:20px;
+    color:#ffffff;
+    
+}
+
+.izq a:hover, .der a:hover{
+    transform: scale(1.1);
+    
+}
+
+.cr{
+    border:3px solid #6BB5A6;
+    background-color:rgba(104, 181, 166, 0.6);
+    
+}
+
+.ed{
+    border:3px solid #F0A36C;
+    background-color:rgba(240, 163, 108, 0.6);
+
+}
+
+.izq h1, .der h1{
+    color:black;
+    margin-top:30%;
+    
+}
+.ult{
+    margin-bottom:30%;
+    border: 3px #F06968 solid;
+    background-color:rgba(240, 105, 104, 0.6);
+
+}
+
+
+/***********EDICION*************/
+.tabla{
+    /*border-collapse: collapse;
+    width:60%;
+    height:60%;
+    margin-left:19%;
+    margin-top:2%;*/
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:60%;
+    height:60%;
+    margin:auto;
+    margin-top:2%;
+
+
+}
+td,tr{
+    border:1px solid black;
+    text-align: center;
+}
+
+
+
+
+
